@@ -1,0 +1,4 @@
+-- No necesitas crear las tablas manualmente.
+-- FastAPI/SQLAlchemy creará threads y replies al conectarse por primera vez.
+-- No programes todavía un DELETE con pg_cron: primero conectaremos la limpieza
+-- de filas con la eliminación de sus archivos en Supabase Storage.
